@@ -43,7 +43,7 @@ self.addEventListener("install", function (evt) {
       })
     );
     self.clients.claim();
-  });
+  })
   
   // Intercept fetch requests
   // YOUR CODE HERE
