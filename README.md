@@ -1,12 +1,13 @@
 # Budget Tracker 
 
 ## Deascription
+Budget website PWA to track transactons.
 
 ## Table of Contents
 - [Description](#description)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
-- [Installation](#installation)
+- [Screenshots](#screenshots)
 - [Author](#author)
 
 ## User Story
@@ -21,8 +22,10 @@ THEN they will receive a notification that they have added an expense or deposit
 WHEN the user reestablishes an internet connection
 THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 
-## Installation
+## Screenshots
+![Budget](./public/icons/budget.jpg)
+![Budget1](./public/icons/budget1.jpg)
 
 ## Author
-* [Ann-Marie Orozco](ann760.github.io/myportfolio/) 
+* [Ann-Marie Orozco](ann760.github.io/myportfolio/) follow the link to see my portfilo website
 * [Ann-Marie's git repository](https://github.com/ann760)
