@@ -1,20 +1,22 @@
-const CACHE_NAME = "my-site-cache-v2";
+const CACHE_NAME = "budget-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v2";
 
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
-    "/favicon.ico",
     "/manifest.json",
-    "/app.js",
+    "/idb.js",
     "/assets/css/style.css",
     "/assets/images/icons/icon-72x72.png",
     "/assets/images/icons/icon-96x96.png",
     "/assets/images/icons/icon-128x128.png",
     "/assets/images/icons/icon-144x144.png",
+    "/assets/images/icons/icon-152x152.png",
+    "/assets/images/icons/icon-192x192.png",
+    "/assets/images/icons/icon-384x384.png",
+    "/assets/images/icons/icon-512x512.png",
 ];
 // Install the service worker
-// YOUR CODE HERE
 self.addEventListener("install", function (evt) {
     evt.waitUntil(
       caches.open(
@@ -46,7 +48,6 @@ self.addEventListener("install", function (evt) {
   })
   
   // Intercept fetch requests
-  // YOUR CODE HERE
   self.addEventListener("fetch", function (evt) {
     if (evt.request.url.includes("/api/")) {
       evt.respondWith(
